@@ -5,3 +5,44 @@ print(a[-2])
 
 b=(2, 3, 4, 5)
 del a[-2]
+
+
+a = 1 
+while a>0: 
+    print("""
+    Menú
+    1. Mirar si un número és sanar o parell
+    2. Sortir
+    """)
+    a = int (input(Seleccioni una opció: "))
+    match a:  
+            case 1: #So volem verue si un número és o no parell
+                x = int(input("Escriure un número"))
+                if x % 2 ==0: 
+                    print("És parell")
+                else: 
+                    print("Es senar (limpiar)")
+            case 2: 
+                a = 0
+
+
+
+
+
+
+
+#DICCIONARI
+
+dic = {"nom":"Joan","cogom":"Ramis","edat":30,"telèfon":971360133}
+for elment in dic:
+    print("La clau {} té el valor {}".format(element,dic[element]))
+
+#Segona forma
+for x,y in dic.items():
+    print("La clau és {} i el seu valor és {}".format(x,y))
+#Dic.clear()
+b={"nom": "Pere", "carrer":"Vives Llull, 15", "Plantes":2}
+dic.update(b)
+print(dic)
+
+          
