@@ -19,6 +19,7 @@ while opció>0:
     opció = menu_principal()
     match opció:
         case 1: 
+        
             numero_mayor()
         case 2:
             opció=-1
