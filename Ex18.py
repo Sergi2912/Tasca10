@@ -1,8 +1,8 @@
 def invertir(cadena):
     return cadena[::-1]
 
-cadena_orignial: "soc en Sergi"
-print(invertir("soc en Sergi"))
+cadena_original = "soc en Sergi"
+print(invertir(cadena_original))
 
-# Exemple:
-print(invertir("Soc del Ramis")) # Retorna 'simaR led coS'
+# Ejemplo:
+print(invertir("Soc del Ramis"))  # Retorna 'simaR led coS'
